@@ -28,6 +28,7 @@ public class CameraViewHandler extends Activity implements IPreviewInCallback {
 
     @Override
     public void onBitmap(Bitmap bitmap) {
+
         Log.d(TAG, "onBitmap");
         Paint paint = new Paint();//画笔
         paint.setAntiAlias(true);//设置是否抗锯齿
